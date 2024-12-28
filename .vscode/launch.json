@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MySqlConnection",
+            "request": "launch",
+            "mainClass": "MySqlConnection",
+            "projectName": "Projet_Java_Carte_Etudiant_85a96f9f"
+        },
+        {
+            "type": "java",
+            "name": "principale",
+            "request": "launch",
+            "mainClass": "principale",
+            "projectName": "Projet_Java_Carte_Etudiant_85a96f9f"
+        },
+
+        {
+            "type": "java",
+            "name": "Launch MySqlConnection",
+            "request": "launch",
+            "mainClass": "MySqlConnection",
+            "vmArgs": "-cp \".;\\mysql-connector-j-9.1.0.jar\""
+        }
+        
+        
+    ]
+}
