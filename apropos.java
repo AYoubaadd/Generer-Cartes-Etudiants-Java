@@ -9,7 +9,6 @@ public class apropos {
 	        apro = new JMenuItem("A propos");
 	        apro.addActionListener(e -> JOptionPane.showMessageDialog(parentFrame, "Version '1.0' AYOUB ADDICHANE & ANWAR BAHIDA"));
 	    }
-
 	    
 	    public JMenuItem getMenuItem() {
 	        return apro;

@@ -4,7 +4,14 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+    
+        {
+            "type": "java",
+            "name": "principale",
+            "request": "launch",
+            "mainClass": "principale",
+            "projectName": "G-n-rer-Carte-Etudiant"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -25,7 +32,6 @@
             "mainClass": "principale",
             "projectName": "Projet_Java_Carte_Etudiant_85a96f9f"
         },
-
         {
             "type": "java",
             "name": "Launch MySqlConnection",
@@ -33,7 +39,5 @@
             "mainClass": "MySqlConnection",
             "vmArgs": "-cp \".;\\mysql-connector-j-9.1.0.jar\""
         }
-        
-        
     ]
 }
