@@ -205,7 +205,7 @@ public class ajouterEtudiant {
         info.add(homme);
         info.add(femme);
         
-        String pay[] = {"Maroc", "Tunisie", "U.S.A", "Egypt", "Italy", "Mali"};
+        String pay[] = {"Maroc", "Mali", "Chad", "Nijir"};
         gpays = new JComboBox(pay);
         gpays.setBackground(new Color(200,200,200));
         gpays.setFont(new Font("Consolas", Font.PLAIN, 18));
